@@ -1,0 +1,10 @@
+{
+  "name": "Data Cascade Card",
+  "content_in_root": true,
+  "zip_release": false,
+  "filename": "data-cascade-card.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/sparky-vision/data-cascade-card",
+  "issues": "https://github.com/sparky-vision/data-cascade-card/issues",
+  "dependencies": []
+}
