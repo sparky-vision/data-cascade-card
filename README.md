@@ -23,3 +23,6 @@ Use the card in your Lovelace UI as:
 ```
 type: 'custom:data-cascade-card'
 ```
+Oh, I should say. This is intended to be used with ha-lcars, here: https://github.com/th3jesta/ha-lcars
+
+And it will look odd without a class applied, such as middle-blank or something like that.
