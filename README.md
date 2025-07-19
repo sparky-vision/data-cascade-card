@@ -13,15 +13,6 @@ Add the repository as a Custom repository in HACS → Frontend.
 
 Install the "Data Cascade Card".
 
-Add the following resource to your Lovelace config:
-
-```
-resources:
-  - url: /hacsfiles/data-cascade-card/data-cascade-card.js
-    type: module
-```
-Use the card in your Lovelace UI as:
-
 ```
 type: 'custom:data-cascade-card'
 ```
