@@ -18,6 +18,4 @@ Install the "Data Cascade Card".
 ```
 type: 'custom:data-cascade-card'
 ```
-Oh, I should say. This is intended to be used with ha-lcars, here: https://github.com/th3jesta/ha-lcars
-
-And it will look odd without a class applied, such as middle-blank or something like that.
+Oh, I should say. As this is intended to be used with HA-LCARS, it will look...odd without a class applied, such as middle-blank or something like that.
