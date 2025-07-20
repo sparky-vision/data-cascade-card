@@ -95,22 +95,20 @@ class DataCascadeCardEditor extends LitElement {
       />
       <small>CSS font size value (e.g., <code>14px</code>, <code>1em</code>, <code>medium</code>). Leave empty for default.</small>
 
-      <label>Line Height (e.g., 14px, 1.2em):</label>
+      <label>Row Height (e.g., 14px, 1.2em):</label>
       <input
         type="text"
-        placeholder="e.g. 1.2, 24px"
-        .value=${this._config.line_height || ""}
+        placeholder="e.g. 1.2em, 24px"
+        .value=${this._config.height || ""}
         @input=${e => {
-          this._config.line_height = e.target.value;
+          this._config.height = e.target.value;
           this._emitChange();
         }}
       />
-      <small>Controls the vertical spacing between lines. Accepts unitless (1.2em) or px (e.g. 20px).</small>
-
+      <small>Controls the height of each line. Accepts absolute or unitless values (e.g. <code>20px</code>, <code>1.5em</code>).</small>
     </div>
   `;
-  }
-
+}
 
 
   static get styles() {
