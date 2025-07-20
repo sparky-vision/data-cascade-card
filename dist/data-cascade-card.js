@@ -155,8 +155,8 @@ class DataCascadeCard extends LitElement {
   const fontSizeStyle = this._config.font_size ? 
     html`<style>${this.resolveFontSize()}</style>` : '';
 
-  // Apply line-height override if provided, otherwise fallback to a safe default (1.4)
-  const lineHeight = this._config.line_height || "1.4";
+  // Apply line-height override if provided, otherwise fallback to a safe default (1em)
+  const lineHeight = this._config.line_height || "1em";
   const lineHeightStyle = html`
     <style>
       .data-column > div {

@@ -105,7 +105,7 @@ class DataCascadeCardEditor extends LitElement {
           this._emitChange();
         }}
       />
-      <small>Controls the vertical spacing between lines. Accepts unitless (1.2) or px (e.g. 20px).</small>
+      <small>Controls the vertical spacing between lines. Accepts unitless (1.2em) or px (e.g. 20px).</small>
 
     </div>
   `;
